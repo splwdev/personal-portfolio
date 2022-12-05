@@ -83,7 +83,7 @@ p {
 /* Banner Area Settings */
 /* Banner placeholder - displaying as flex, ensuring banner title is displayed on rhs utilising justify-content and bottom utilising align-items */
 .hero-banner {
-  background-image: url("../images/portfolio-header.jpg");
+  background-image: url("../images/02-hero-bg.jpg");
   background-size: cover;
   background-position: 20%;
   background-attachment: fixed;
