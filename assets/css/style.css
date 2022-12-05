@@ -343,7 +343,6 @@ p {
 {
   .header h1 {
     font-size: 20px;
-
   }
 
   .navlinks {
@@ -446,6 +445,7 @@ p {
   .proj-item {
     margin: 0 20px;
   }
+
   .proj-img {
     height: 175px !important;
     display: block;
