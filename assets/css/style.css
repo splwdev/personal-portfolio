@@ -1,6 +1,6 @@
 :root {
-  --darknavyblue: #0D1A2D;
-  --lightblue: #D6E2F0;
+  --darknavyblue: #0d1a2d;
+  --lightblue: #d6e2f0;
 }
 
 /* General Settings */
@@ -15,7 +15,12 @@ body {
   line-height: 1.5;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -33,22 +38,24 @@ p {
 }
 
 .selfie {
-    object-fit: contain;
-    position: absolute;
-    left: 0.4%;
-    top: 3.2%;
-    width: 40px;
-    border-radius: 10px;
+  object-fit: contain;
+  position: absolute;
+  left: 0.4%;
+  top: 3.2%;
+  width: 40px;
+  border-radius: 10px;
 }
 
 /* Header Title */
 .header h1 {
   color: var(--darknavyblue);
   background-color: var(--lightblue);
-  padding:0 15px 0 60px;
+  padding: 0 15px 0 60px;
   font-size: 48px;
   margin-top: 15px;
   margin-bottom: 15px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 /* Main Navigation */
@@ -103,9 +110,10 @@ p {
 .banner-title h2 {
   text-align: center;
   padding: 5px 10px;
-  color: #31343D;
+  color: #31343d;
   background-color: var(--lightblue);
   font-size: 36px;
+  border-radius: 10px;
 }
 
 /* Category Grid CSS */
@@ -116,7 +124,7 @@ p {
   grid-template-rows: 14% 22% 18% 18% 10%;
   background-color: white;
   padding: 10px;
-  gap:10px;
+  gap: 10px;
   margin: 5%;
 }
 
@@ -238,7 +246,7 @@ p {
 .img-title {
   position: absolute;
   bottom: 20px;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0, 0, 0, 0.7);
   color: white;
   padding: 10px;
   z-index: 1;
@@ -247,7 +255,7 @@ p {
 
 /* Ensuring when hovering over the project title that opacity disappears */
 .img-title:hover {
-  background-color: rgba(0,0,0,1);
+  background-color: rgba(0, 0, 0, 1);
 }
 
 /* Contact Me row settings */
@@ -263,7 +271,7 @@ p {
 /* Sets details container location and style */
 #details {
   grid-row-start: 5;
-  grid-row-end: 6;  
+  grid-row-end: 6;
   grid-column-start: 2;
   grid-column-end: 4;
   display: flex;
@@ -280,7 +288,6 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  
 }
 
 .contact-items {
@@ -296,8 +303,7 @@ p {
 
 /* Media Breakpoint Section */
 /* Media Breakpoint for screens 1580px or less */
-@media only screen and (max-width: 1580px) 
- {
+@media only screen and (max-width: 1580px) {
   .left-column {
     display: flex;
     flex-wrap: wrap;
@@ -315,8 +321,7 @@ p {
 }
 
 /* Media Breakpoint for screens 1200px or less */
-@media only screen and (max-width: 1200px) 
-{
+@media only screen and (max-width: 1200px) {
   .header h1 {
     font-size: 24px;
     display: flex;
@@ -339,8 +344,7 @@ p {
 }
 
 /* Media Breakpoint for screens 900px or less */
-@media only screen and (max-width: 900px) 
-{
+@media only screen and (max-width: 900px) {
   .header h1 {
     font-size: 20px;
   }
@@ -384,23 +388,25 @@ p {
 }
 
 /* Media Breakpoint for screens 768px or less */
-@media only screen and (max-width: 768px) 
-{
+@media only screen and (max-width: 768px) {
   .navlinks {
     flex-direction: column;
     padding: 0;
-    grid-gap:0;
+    grid-gap: 0;
   }
 
   .navlinks li {
     font-size: 16px;
   }
-  
-  .banner-title h2, .img-title h2 {
+
+  .banner-title h2,
+  .img-title h2 {
     font-size: 20px;
   }
 
-  #aboutme, #work, #contactme {
+  #aboutme,
+  #work,
+  #contactme {
     border-right: none;
     text-align: center;
     font-size: 16px;
@@ -421,9 +427,8 @@ p {
 }
 
 /* Media Breakpoint for screens 480px or less */
-@media only screen and (max-width: 480px) 
-{
-  .header h1{
+@media only screen and (max-width: 480px) {
+  .header h1 {
     text-align: center;
     font-size: 18px;
   }
@@ -432,13 +437,20 @@ p {
     display: inline;
   }
 
-  #aboutme, #work, #contactme {
+  #aboutme,
+  #work,
+  #contactme {
     border-right: none;
     text-align: center;
     margin: 50px 20px 30px 20px;
   }
 
-  #bio, #main-project, #second-project, #third-project, #fourth-project, #fifth-project {
+  #bio,
+  #main-project,
+  #second-project,
+  #third-project,
+  #fourth-project,
+  #fifth-project {
     margin: 15px 20px 0 20px;
   }
 
